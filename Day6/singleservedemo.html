@@ -10,17 +10,10 @@
 	<body>
 			
 
-			<script language="javascript" type="text/javascript">
-				function playSound(soundfile) {
-  					document.getElementById("square1").innerHTML=
-    				"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-				}
-			</script>
+		<img src="yourimagelink.png" onclick="document.getElementById('audioID').play();"></img>
 
+		<audio id="audioID" src="boing.mp3" preload="auto"></audio>
 
-		<span id="dummy">
-			<embed src="boing.mp3" autostart="false" loop="false" hidden="true">
-		</span>
 
 		
 			<div id="square1" onmouseover="playSound('boing.mp3');"></div>
@@ -35,12 +28,6 @@
 			<div class="square10" onmouseover="playSound('boing.mp3');"></div>
 			<div class="square11" onmouseover="playSound('boing.mp3');"></div>
 			<div class="square12" onmouseover="playSound('boing.mp3');"></div>
-		
-
-
-		<audio> 
-			<source src="file:///C:/Users/Andrew%20D/Desktop/Current%20CollegeStuff/web18-am/students/andrew/Day6/boing.mp3">
-		</audio>
 			
 		
 	</body>

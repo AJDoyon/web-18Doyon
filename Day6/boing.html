@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>boing...</title>
+</head>
+<body>
+
+	<link rel="stylesheet" type="text/css" href="../css/boing.css">
+		  <meta charset="utf-8"/>
+
+		<script language="javascript" type="text/javascript">
+				function playSound(soundfile) {
+  					document.getElementById("square1").innerHTML=
+    				"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+				}
+			</script>
+
+		<span id="dummy">
+			<embed src="boing.mp3" autostart="false" loop="false" hidden="true">
+		</span>
+
+			<div id="square1" onmouseover="playSound('boing.mp3');"></div>
+
+		<audio> 
+			<source src="file:///C:/Users/Andrew%20D/Desktop/Current%20CollegeStuff/web18-am/students/andrew/Day6/boing.mp3">
+		</audio>
+			
+
+</body>
+</html>

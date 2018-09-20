@@ -1,6 +1,4 @@
 
-
-
 div:hover{
 		opacity:.7;
 		border-radius:50px;
@@ -12,12 +10,13 @@ div:hover audio{
 	
 }
 
-.square1{
+
+#square1{
 	height:200px;
 	width:200px;
 	position: absolute;
 	background-color:red;
-	top:0;
+	top:55px;
 	left:0;
 }
 
@@ -26,7 +25,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:orange;
-	top:0;
+	top:55px;
 	left:400px;
 }
 
@@ -35,7 +34,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:yellow;
-	top:0;
+	top:55px;
 	left:800px;
 }
 
@@ -44,7 +43,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:green;
-	top:0;
+	top:55px;
 	left:1200px;
 }
 
@@ -53,7 +52,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:cyan;
-	top:200px;
+	top:255px;
 	left:200px;
 }
 
@@ -62,7 +61,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:blue;
-	top:200px;
+	top:255px;
 	left:600px;
 }
 
@@ -71,7 +70,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:indigo;
-	top:200px;
+	top:255px;
 	left:1000px;
 }
 
@@ -80,7 +79,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:purple;
-	top:200px;
+	top:255px;
 	left:1400px;
 }
 
@@ -89,7 +88,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:pink;
-	top:400px;
+	top:455px;
 	left:0px;
 }
 
@@ -97,8 +96,8 @@ div:hover audio{
 	height:200px;
 	width:200px;
 	position: absolute;
-	background-color:brown;
-	top:400px;
+	background-color:rgb(92,26,7);
+	top:455px;
 	left:400px;
 }
 
@@ -107,7 +106,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:gray;
-	top:400px;
+	top:455px;
 	left:800px;
 }
 
@@ -116,7 +115,7 @@ div:hover audio{
 	width:200px;
 	position: absolute;
 	background-color:black;
-	top:400px;
+	top:455px;
 	left:1200px;
 }
 

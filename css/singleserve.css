@@ -87,7 +87,7 @@ div:hover audio{
 	height:200px;
 	width:200px;
 	position: absolute;
-	background-color:pink;
+	background-color: rgb(255, 99, 179);
 	top:455px;
 	left:0px;
 }
@@ -96,7 +96,7 @@ div:hover audio{
 	height:200px;
 	width:200px;
 	position: absolute;
-	background-color:rgb(92,26,7);
+	background-color: rgb(92,26,7);
 	top:455px;
 	left:400px;
 }

@@ -119,6 +119,14 @@ div:hover audio{
 	left:1200px;
 }
 
+.squaresecret{
+	height:200px;
+	width:200px;
+	position: absolute;
+	top:255px;
+	left:400px;
+}
+
 body{
 	background-color:beige;
 }

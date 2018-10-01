@@ -1,0 +1,15 @@
+body{
+	background-image: "Background.jpg";
+}
+
+.text{
+	position:absolute;
+	left:500px;
+	top:550px;
+	font-family:'Playfair Display', serif;
+}
+
+.logo{
+	position:absolute;
+	left:50px;
+}

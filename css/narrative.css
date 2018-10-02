@@ -2,6 +2,10 @@ body{
 	background-image: "Background.jpg";
 }
 
+a{
+	font-color: black;
+}
+
 .text{
 	position:absolute;
 	left:500px;
@@ -56,6 +60,35 @@ body{
 	font-family:'Playfair Display', serif;
 }
 
+.text8{
+	position:absolute;
+	left:420px;
+	top:550px;
+	font-family:'Playfair Display', serif;
+}
+
+.text9{
+	position:absolute;
+	left:550px;
+	top:550px;
+	width:390px;
+	font-family:'Playfair Display', serif;
+}
+
+.text10{
+	position:absolute;
+	left:550px;
+	top:550px;
+	width:390px;
+	font-family:'Playfair Display', serif;
+}
+
+.text11{
+	position:absolute;
+	left:570px;
+	top:550px;
+	font-family:'Playfair Display', serif;
+}
 
 .logo{
 	position:absolute;

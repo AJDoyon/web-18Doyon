@@ -1,30 +1,35 @@
-h1{
+div{
 	text-align:center;
 }
 
-h3{
-	text-align:center;
+.p1{
+	background-color:red;
 }
 
-h2{
-	text-align:center;
+.p2{
+	background-color:orange;
 }
 
-.box1{
-	position: absolute;
-	top:100px;
-	left:0px;
-	background-color: red;
-	width:500px;
-	height:250px;
+.p3{
+	background-color:yellow;
 }
 
-.box2{
-	position: absolute;
-	top:500px;
-	left:600px;
+.p4{
+	background-color:green;
+	color:white;
 }
 
-p{
-	text-align:center;
+.p5{
+	background-color:blue;
+	color:white;
+}
+
+.p6{
+	background-color:indigo;
+	color:white;
+}
+
+.p7{
+	background-color:purple;
+	color:white;
 }

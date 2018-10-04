@@ -6,93 +6,24 @@ body{
 }
 
 a{
-	color: blue;
+	color: black;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
 }
 
 .text{
 	position:absolute;
 	left:500px;
-	top:550px;
+	top:250px;
 	font-family:'Playfair Display', serif;
-	color:white;
-}
-
-.text2{
-	position:absolute;
-	left:580px;
-	top:550px;
-	width:320px;
-	font-family:'Playfair Display', serif;
-	color:white;
-}
-
-.text3{
-	position:absolute;
-	left:580px;
-	top:550px;
-	width:350px;
-	font-family:'Playfair Display', serif;
-}
-
-.text4{
-	position:absolute;
-	left:580px;
-	top:550px;
-	font-family:'Playfair Display', serif;
-}
-
-.text5{
-	position:absolute;
-	left:480px;
-	top:550px;
-	width:600px;
-	font-family:'Playfair Display', serif;
-}
-
-.text6{
-	position:absolute;
-	left:530px;
-	top:550px;
-	width:390px;
-	font-family:'Playfair Display', serif;
-}
-
-.text7{
-	position:absolute;
-	left:530px;
-	top:550px;
-	width:390px;
-	font-family:'Playfair Display', serif;
-}
-
-.text8{
-	position:absolute;
-	left:420px;
-	top:550px;
-	font-family:'Playfair Display', serif;
-}
-
-.text9{
-	position:absolute;
-	left:550px;
-	top:550px;
-	width:390px;
-	font-family:'Playfair Display', serif;
-}
-
-.text10{
-	position:absolute;
-	left:550px;
-	top:550px;
-	width:390px;
-	font-family:'Playfair Display', serif;
-}
-
-.text11{
-	position:absolute;
-	left:570px;
-	top:550px;
-	font-family:'Playfair Display', serif;
+	background-color: blue;
+	opacity: 75%;
+	color:black;
+	width:550px;
+	text-align:center;
 }
 
 .logo{

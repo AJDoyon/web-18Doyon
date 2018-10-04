@@ -1,0 +1,30 @@
+h1{
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+.box1{
+	position: absolute;
+	top:100px;
+	left:0px;
+	background-color: red;
+	width:500px;
+	height:250px;
+}
+
+.box2{
+	position: absolute;
+	top:500px;
+	left:600px;
+}
+
+p{
+	text-align:center;
+}

@@ -6,11 +6,11 @@ body{
 }
 
 a{
-	color: black;
+	color: white;
 }
 
 a:hover{
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
@@ -21,9 +21,12 @@ a:hover{
 	font-family:'Playfair Display', serif;
 	background-color: blue;
 	opacity: 75%;
-	color:black;
+	color:white;
 	width:550px;
 	text-align:center;
+	padding:25px;
+	border-radius:10px;
+	line-height: 1.6;
 }
 
 .logo{

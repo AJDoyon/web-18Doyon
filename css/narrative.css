@@ -104,6 +104,7 @@ a{
 	position:absolute;
 	top:580px;
 	left:640px;
+	font-family:'Playfair Display', serif;
 }
 
 .Story{
@@ -111,6 +112,7 @@ a{
 	font-size: 80px;
 	top:290px;
 	left:500px;
+	font-family:'Playfair Display', serif;
 }
 
 .bird{

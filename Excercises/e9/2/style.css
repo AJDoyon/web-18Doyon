@@ -1,35 +1,68 @@
 div{
 	text-align:center;
+	width:350px;
+	padding:30px;
 }
 
 .p1{
 	background-color:red;
+	position: absolute;
+	top:0px;
+	left:0px;
+	font-size:25px;
+	font-style: bold;
+	font-family:'Ubuntu';
 }
 
 .p2{
 	background-color:orange;
+	position: absolute;
+	top:88px;
+	left:108px;
+	font-family:'Arvo';
+	font-size:18px;
 }
 
 .p3{
 	background-color:yellow;
+	position: absolute;
+	top:168px;
+	left:268px;
+	font-family:'Ubuntu';
 }
 
 .p4{
 	background-color:green;
 	color:white;
+	position: absolute;
+	top:246px;
+	left:506px;
+	font-family:'Poppins';
 }
 
 .p5{
 	background-color:blue;
 	color:white;
+	position: absolute;
+	top:350px;
+	left:672px;
+	font-family:'Poppins';
 }
 
 .p6{
 	background-color:indigo;
 	color:white;
+	position: absolute;
+	top:456px;
+	left:928px;
+	font-family:'Poppins';
 }
 
 .p7{
 	background-color:purple;
 	color:white;
+	position: absolute;
+	top:610px;
+	left:1166px;
+	font-family:'Poppins';
 }

@@ -1,0 +1,51 @@
+h1{
+	position:absolute;
+	left:640px;
+	font-family:'Ubuntu';
+	font-size: 40px;
+	
+}
+
+h3{
+	position:absolute;
+	top:75px;
+	left:680px;
+	font-family:'Poppins';
+	font-size:30px;
+}
+
+h2{
+	position:absolute;
+	top:300px;
+	left:140px;
+	font-family:'Ubuntu';
+	transform: rotate(-90deg);
+	font-size: 35px;
+}
+
+div{
+	position: absolute;
+	width:600px;
+	height:300px;
+	font-size:24px;
+}
+
+.Jo{
+ 	top:200px;
+ 	left:530px;
+}
+
+.Meg{
+	top:300px;
+ 	left:530px;
+}
+
+.Amy{
+	top:400px;
+ 	left:530px;
+}
+
+.Beth{
+	top:550px;
+ 	left:530px;
+}

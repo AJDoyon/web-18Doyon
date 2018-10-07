@@ -1,0 +1,37 @@
+
+div{
+	position: absolute;
+	width:600px;
+	height:600px;
+}
+
+h1{
+	background-color:red;
+	text-align: center;
+	padding:25px;
+	font-size:45px;
+	border-radius:10px;
+}
+
+h3{
+	text-align: center;
+	border-radius:10px;
+	background-color:blue;
+	padding:25px;
+}
+
+h2{
+	text-align: center;
+	border-radius:10px;
+	background-color:yellow;
+	padding:25px;
+}
+
+.one{
+	left:20px;
+
+}
+
+.two{
+	left:600px;
+}

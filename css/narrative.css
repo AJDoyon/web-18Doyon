@@ -37,8 +37,12 @@ a:hover{
 .start{
 	position:absolute;
 	top:580px;
-	left:640px;
+	left:610px;
 	font-family:'Playfair Display', serif;
+	color:white;
+	padding:25px;
+	background-color: blue;
+	border-radius:10px;
 }
 
 .Story{

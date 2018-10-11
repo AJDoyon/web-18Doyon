@@ -36,7 +36,7 @@ h2{
 
 .Amy{
 	transform: rotate(90deg);
-		position: absolute;
+	position: absolute;
 	top:300px;
 	left:800px;
 	width:500px;

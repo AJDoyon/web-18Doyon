@@ -1,0 +1,38 @@
+.h1{
+	position:absolute;
+	font-size:60px;
+}
+
+.h3{
+	position:absolute;
+	font-size:60px;
+	left:540px;
+	top:8px;
+}
+
+.h2{
+	position:absolute;
+	font-size:60px;
+	top:80px;
+}
+
+div{
+	position:absolute;
+	font-size:30px;
+}
+
+.Jo{
+	top:300px;
+}
+
+.Meg{
+	top:400px;
+}
+
+.Amy{
+	top:500px;
+}
+
+.Beth{
+	top:640px;
+}

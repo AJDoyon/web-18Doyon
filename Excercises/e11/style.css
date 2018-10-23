@@ -105,14 +105,12 @@
 					}
 
 					.booklet{
-						text-align:center;
-						width:60vw;
+						width:45vw;
 
 					}
 
 					#container{
-						position:absolute;
-						left:100px;
+						margin:45px;
 					}
 
 @media only screen and (max-width: 600px){
@@ -149,10 +147,17 @@
 
 	.title{
 		text-align: center;
+		height:100%;
+		margin:15px;
 	}
 
+	.booklet{
+						text-align:center;
+						width:60vw;
+
+					}
+
 	#container{
-						position:absolute;
-						left:40px;
+						margin:0px;
 					}
 }

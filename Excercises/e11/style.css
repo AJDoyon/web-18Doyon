@@ -22,6 +22,7 @@
 					body{
 						margin: 50px;
 						background-image: url("file:///C:/Users/Andrew%20D/Desktop/Current%20CollegeStuff/WebStuff/EssaySite/paper.png")
+
 					}
 					
 					h1 {
@@ -149,7 +150,23 @@
 		text-align: center;
 		height:100%;
 		margin:15px;
+		 animation-name: coloramaa;
+    					animation-duration: 4s;
+    					animation-iteration-count: infinite;
 	}
+
+		@keyframes coloramaa {
+						0% {color: white;}
+						25% {color: red;}
+						50% {color: green;}
+						75% {color: blue;}
+						100% {color: white;}
+						0% {transform: skew(0deg);}
+						25% {transform: skew(20deg);}
+						50% {transform: skew(0deg);}
+						75% {transform: skew(-20deg);}
+						100%{transform: skew(0deg);}
+					}
 
 	.booklet{
 						text-align:center;
@@ -159,5 +176,8 @@
 
 	#container{
 						margin:0px;
+						color:white;
+						background-color:black;
+
 					}
 }

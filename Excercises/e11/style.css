@@ -149,7 +149,7 @@
 	.title{
 		text-align: center;
 		height:100%;
-		margin:15px;
+		margin:14px;
 		 animation-name: coloramaa;
     					animation-duration: 4s;
     					animation-iteration-count: infinite;
@@ -180,4 +180,8 @@
 						background-color:black;
 
 					}
+
+		.small{
+			font-size: 18px;
+		}
 }

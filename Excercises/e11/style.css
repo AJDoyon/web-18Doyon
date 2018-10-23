@@ -1,0 +1,158 @@
+					.red{
+						color: #CC0606;
+						background-color: green;
+						width: 152px;
+					}
+					.slanted{
+						transform: skew(-20deg);
+					}
+					p.slanted{
+						transform: skew(10deg);
+					}
+					.sansserif{
+						font-family: 'Roboto Condensed', sans-serif;
+					}
+					.small{
+						font-size: 15px;
+					}
+					.heavy{
+						font-size: 20px;
+						font-family: 'Vollkorn', serif;
+					}
+					body{
+						margin: 50px;
+						background-image: url("file:///C:/Users/Andrew%20D/Desktop/Current%20CollegeStuff/WebStuff/EssaySite/paper.png")
+					}
+					
+					h1 {
+						font-family: 'Bree Serif', serif;
+					}
+
+					h2{
+						font-family: 'Bree Serif', serif;
+						height:30px;
+
+					}
+
+					h3 {
+						font-family: 'Vollkorn', serif;
+					}
+					p{
+						font-family: 'Domine', serif;
+					}
+					.list{
+						font-family: 'Domine', serif;
+						background-color: black;
+						width: 180px;
+					}
+
+					.title{
+						
+    					font-family: 'Bree Serif', serif;
+    					font-size: 45px;
+   						 position: relative;
+   						 animation-name: colorama;
+    					animation-duration: 4s;
+    					animation-iteration-count: infinite;
+    					width:75vw;
+    					
+					}
+					@keyframes colorama {
+						0% {color: black;}
+						25% {color: red;}
+						50% {color: green;}
+						75% {color: blue;}
+						100% {color: black;}
+						0% {transform: skew(0deg);}
+						25% {transform: skew(20deg);}
+						50% {transform: skew(0deg);}
+						75% {transform: skew(-20deg);}
+						100%{transform: skew(0deg);}
+					}
+					.tab{
+						text-indent: 60px
+					}
+					.redlist{
+						color:red;
+					}
+					.orangelist{
+						color:orange;
+					}
+					.yellowlist{
+						color:yellow;
+					}
+					.greenlist{
+						color:green;
+					}
+					.cyanlist{
+						color:cyan;
+					}
+					.bluelist{
+						color:blue;
+					}
+					.indigolist{
+						color:indigo;
+					}
+					.purplelist{
+						color:purple;
+					}
+					.big{
+						font-size: 18px;
+					}
+
+					.body-p{
+						width:70vw;
+					}
+
+					.booklet{
+						text-align:center;
+						width:60vw;
+
+					}
+
+					#container{
+						position:absolute;
+						left:100px;
+					}
+
+@media only screen and (max-width: 600px){
+	.body-p{
+			width:80vw;
+			text-align:center;
+		}
+
+		.list{
+			font-family: 'Domine', serif;
+			background-color: black;
+			width: 80vw;
+			text-align:center;
+		}
+
+	h3{
+		text-align:center;
+		width: 80vw;
+	}
+
+	.red{
+		text-align:center;
+		width: 80vw;
+	}
+
+	.heavy{
+		text-align:center;
+		width: 80vw;
+	}
+
+	h2{
+		text-align:center;
+	}
+
+	.title{
+		text-align: center;
+	}
+
+	#container{
+						position:absolute;
+						left:40px;
+					}
+}

@@ -21,6 +21,7 @@ img{
 	margin:0 auto;
 	background-color: yellow;
 	font-size: 18px;
+	padding:.5px;
 }
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{

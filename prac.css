@@ -13,14 +13,25 @@ img{
 	margin:0 auto;
 	background-color: red;
 	text-align:center;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .body{
-	width:30vw;
+	width:60vw;
 	margin:0 auto;
 	background-color: yellow;
 	font-size: 18px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+	margin:10px;
+	font-size:20px;
+
+}
+
+.grad{
+	width: calc((100%/2) -25px);
+	margin-right:50px auto;
 }
 
 @media only screen and (max-width: 600px){

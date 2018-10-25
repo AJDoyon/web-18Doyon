@@ -9,7 +9,7 @@ img{
 }
 
 .headline{
-	width:30vw;
+	width:60vw;
 	margin:0 auto;
 	background-color: red;
 	text-align:center;
@@ -27,6 +27,18 @@ img{
 	margin:10px;
 	font-size:20px;
 
+}
+
+.one{
+	width:calc((100% / 2) - 25px);
+
+	margin-left:50px auto;
+}
+
+.two{
+	width:calc((100% / 2) - 25px);
+
+	margin-left:50px auto;
 }
 
 .grad{
@@ -58,5 +70,17 @@ img{
 	margin:0 auto;
 	background-color: yellow;
 	font-size: 18px;
+	}
+
+	.one{
+	width:calc((100%) - 25px);
+
+	margin-left:50px auto;
+	}
+
+	.two{
+	width:calc((100%) - 25px);
+
+	margin-left:50px auto;
 	}
 }

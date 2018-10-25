@@ -41,6 +41,18 @@ img{
 	margin-left:50px auto;
 }
 
+.five{
+	width:calc((100% / 2) - 25px);
+
+	margin-left:50px auto;
+}
+
+.six{
+	width:calc((100% / 2) - 25px);
+
+	margin-left:50px auto;
+}
+
 .grad{
 	width: calc((100%/2) -25px);
 	margin-right:50px auto;
@@ -79,6 +91,18 @@ img{
 	}
 
 	.two{
+	width:calc((100%) - 25px);
+
+	margin-left:50px auto;
+	}
+
+	.five{
+	width:calc((100%) - 25px);
+
+	margin-left:50px auto;
+	}
+
+	.six{
 	width:calc((100%) - 25px);
 
 	margin-left:50px auto;

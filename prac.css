@@ -4,9 +4,7 @@
 	background-color: blue;
 }
 
-img{
-	max-width: 100%;
-}
+
 
 .headline{
 	width:60vw;
@@ -34,29 +32,91 @@ img{
 	width:calc((100% / 2) - 25px);
 
 	margin-left:50px auto;
+
+	float:left;	
 }
 
 .two{
 	width:calc((100% / 2) - 25px);
 
 	margin-left:50px auto;
+	float:left;	
+}
+
+.three{
+	width:calc((100%) - 25px);
+	float:left;	
+}
+
+.four{
+	width:calc((100%));
+	float:left;	
 }
 
 .five{
 	width:calc((100% / 2) - 25px);
 
 	margin-left:50px auto;
+	float:left;	
 }
 
 .six{
 	width:calc((100% / 2) - 25px);
 
 	margin-left:50px auto;
+	float:left;	
+}
+
+.seven{
+	width:calc((50%));
+	float:right;	
+}
+
+.eight{
+	width:calc((100%));
+	float:left;	
+}
+
+.nine{
+	width:calc((100%));
+	float:left;
+}
+
+.block{
+	float:right;
+	width:50%;
 }
 
 .grad{
+	max-width: 50%;
 	width: calc((100%/2) -25px);
 	margin-right:50px auto;
+	float:right;	
+}
+
+.strength{
+	max-width: 20%;
+	float:left;
+}
+
+.bernie{
+	max-width: 20%;
+	float:left;
+}
+
+.thimg{
+	max-width: 50%;
+	float:left;
+}
+
+.Luntz-1{
+	max-width: 75%;
+	float:right;	
+}
+
+.Luntz-2{
+	max-width: 75%;
+	float:right;	
 }
 
 @media only screen and (max-width: 320px){

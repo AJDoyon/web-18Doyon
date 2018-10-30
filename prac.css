@@ -118,116 +118,134 @@
 	float:right;	
 }
 
-@media only screen and (max-width: 320px){
-	body{
-		background-color: grey;
-			}
-	
-	#container{
-	width:90vw;
-	margin:0 auto;
-	background-color: blue;
+@media only screen and (max-width: 1024px){
+	body {
+		background-color: magenta;
 	}
+	#container{
+		width:90vw;
+		margin:0 auto;
+		background-color: blue;
+	}
+
+
 
 	.headline{
-	width:90vw;
-	margin:0 auto;
-	background-color: red;
-	text-align:center;
-	font-size: 14px;
+		width:90vw;
+		margin:0 auto;
+		background-color: red;
+		text-align:center;
+		font-size: 30px;
 	}
 
-.body{
-	width:80vw;
-	margin:0 auto;
-	background-color: yellow;
-	font-size: 12px;
+	.body{
+		width:90vw;
+		margin:0 auto;
+		background-color: yellow;
+		font-size: 18px;
+		padding:.5px;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+		margin:10px;
+		font-size:20px;
+
 	}
 
 	.one{
-	width:calc((100%) - 25px);
-	float:left;
-	margin-left:50px auto;
+		max-width:100%;
+
+		margin-left:50px auto;
+
+		float:left;	
 	}
 
 	.two{
-	width:calc((100%) - 25px);
-	float:left;
-	margin-left:50px auto;
+		max-width:100%;
+
+		margin-left:50px auto;
+		float:left;	
+	}
+
+	.three{
+		width:calc((100%) - 25px);
+		float:left;
+		margin-top: 100px auto;
 	}
 
 	.four{
-		width:calc((100%) - 25px);
-	float:left;
-	margin-left:50px auto;
+		width:calc((100%));
+		float:left;	
 	}
 
 	.five{
-	width:calc((100%) - 25px);
-	float:left;
-	margin-left:50px auto;
+		width:calc((100% / 2) - 25px);
+
+		margin-left:50px auto;
+		float:left;	
 	}
 
 	.six{
-	width:calc((100%) - 25px);
+		width:calc((100% / 2) - 25px);
+
+		margin-left:50px auto;
+		float:left;	
 	}
 
 	.seven{
-		width:calc((100%) - 25px);
-		float:left;
+		width:calc((50%));
+		float:right;	
 	}
 
 	.eight{
-		width:calc((100%) - 25px);
+		width:calc((100%));
+		float:left;	
 	}
 
 	.nine{
-		width:calc((100%) - 25px);
-	}
-
-	img{
-	}
-
-	.grad{
-	max-width: 100%;
-	margin-right:50px auto;
-	float:left;	
-	}
-
-	.thimg{
-		max-width: 100%;
-	margin-right:50px auto;
-	float:left;	
+		width:calc((100%));
+		float:left;
 	}
 
 	.block{
-	width:calc((100%) - 25px);
-	float:left;
+		float:right;
+		max-width:50%;
+	}
+
+	.grad{
+		max-width: 50%;
+		margin-right:0px auto;
+		float:right;	
+	}
+
+	.strength{
+		max-width: 30%;
+		float:left;
+	}
+
+	.bernie{
+		max-width: 30%;
+		float:left;
+	}
+
+	.thimg{
+		max-width: 50%;
+		float:left;
+	}
+
+	.Luntz-1{
+		max-width: 50%;
+		float:left;	
+	}
+
+	.Luntz-2{
+		max-width: 50%;
+		float:left;	
+	}
+
+
 }
 
-.bernie{
-	max-width: 100%;
-	width:50%;
-	float:left;
-}
-
-.strength{
-	max-width: 100%;
-	width:50%;
-	float:left;
-}
-
-.Luntz-1{
-	max-width: 100%;
-	float:left;
-}
-
-.Luntz-2{
-	max-width: 100%;
-	float:left;
-}
-	
-}
 
 @media only screen and (max-width: 768px){
 
@@ -317,132 +335,114 @@
 	
 }
 
-
-}
-
-@media only screen and (max-width: 1024px){
-
+@media only screen and (max-width: 320px){
+	body{
+		background-color: grey;
+			}
+	
 	#container{
-		width:90vw;
-		margin:0 auto;
-		background-color: blue;
+	width:90vw;
+	margin:0 auto;
+	background-color: blue;
 	}
-
-
 
 	.headline{
-		width:90vw;
-		margin:0 auto;
-		background-color: red;
-		text-align:center;
-		font-size: 30px;
+	width:90vw;
+	margin:0 auto;
+	background-color: red;
+	text-align:center;
+	font-size: 14px;
 	}
 
-	.body{
-		width:90vw;
-		margin:0 auto;
-		background-color: yellow;
-		font-size: 18px;
-		padding:.5px;
-	}
-
-	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
-		margin:10px;
-		font-size:20px;
-
+.body{
+	width:80vw;
+	margin:0 auto;
+	background-color: yellow;
+	font-size: 12px;
 	}
 
 	.one{
-		max-width:40%;
-
-		margin-left:50px auto;
-
-		float:left;	
+	width:calc((100%) - 25px);
+	float:left;
+	max-width:100%;
+	margin-left:50px auto;
 	}
 
 	.two{
-		max-width:40%;
-
-		margin-left:50px auto;
-		float:left;	
-	}
-
-	.three{
-		width:calc((100%) - 25px);
-		float:left;
-		margin-top: 100px auto;
+	width:calc((100%) - 25px);
+	float:left;
+	max-width:100%;
+	margin-left:50px auto;
 	}
 
 	.four{
-		width:calc((100%));
-		float:left;	
+		width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
 	}
 
 	.five{
-		width:calc((100% / 2) - 25px);
-
-		margin-left:50px auto;
-		float:left;	
+	width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
 	}
 
 	.six{
-		width:calc((100% / 2) - 25px);
-
-		margin-left:50px auto;
-		float:left;	
+	width:calc((100%) - 25px);
 	}
 
 	.seven{
-		width:calc((50%));
-		float:right;	
-	}
-
-	.eight{
-		width:calc((100%));
-		float:left;	
-	}
-
-	.nine{
-		width:calc((100%));
+		width:calc((100%) - 25px);
 		float:left;
 	}
 
-	.block{
-		float:right;
-		max-width:50%;
+	.eight{
+		width:calc((100%) - 25px);
+	}
+
+	.nine{
+		width:calc((100%) - 25px);
+	}
+
+	img{
 	}
 
 	.grad{
-		max-width: 50%;
-		margin-right:0px auto;
-		float:right;	
+	max-width: 100%;
+	margin-right:50px auto;
+	float:left;	
 	}
 
-	.strength{
-		max-width: 30%;
+	.thimg{
+		max-width: 100%;
+	margin-right:50px auto;
+	float:left;	
+	}
+
+	.block{
+		width:calc((100%) - 25px);
 		float:left;
 	}
 
 	.bernie{
-		max-width: 30%;
+		max-width: 100%;
+		width:50%;
 		float:left;
 	}
 
-	.thimg{
-		max-width: 50%;
+	.strength{
+		max-width: 100%;
+		width:50%;
 		float:left;
 	}
 
 	.Luntz-1{
-		max-width: 50%;
-		float:left;	
+		max-width: 100%;
 	}
 
 	.Luntz-2{
-		max-width: 50%;
-		float:left;	
+		max-width: 100%;
+		float:left;
 	}
-
-
+	
 }
-

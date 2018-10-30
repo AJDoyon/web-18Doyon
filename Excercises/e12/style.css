@@ -115,6 +115,7 @@ body{
 	top:340px;
 	right:440px;
 	transform: rotate(-45deg);
+
 }
 
 .rib1{
@@ -123,6 +124,7 @@ body{
 	width:70px;
 	position:absolute;
 	left:60px;
+	border-radius:10px;
 }
 
 .rib2{
@@ -132,6 +134,7 @@ body{
 	position:absolute;
 	left:60px;
 	top:60px;
+	border-radius:10px;
 }
 
 .rib3{
@@ -141,6 +144,7 @@ body{
 	position:absolute;
 	left:60px;
 	top:120px;
+	border-radius:10px;
 }
 
 .rib4{
@@ -149,6 +153,7 @@ body{
 	width:70px;
 	position:absolute;
 	left:-80px;
+	border-radius:10px;
 }
 
 .rib5{
@@ -158,6 +163,7 @@ body{
 	position:absolute;
 	left:-60px;
 	top:60px;
+	border-radius:10px;
 }
 
 .rib6{
@@ -167,6 +173,7 @@ body{
 	position:absolute;
 	left:-50px;
 	top:120px;
+	border-radius:10px;
 }
 
 .pelvis{

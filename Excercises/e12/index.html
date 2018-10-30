@@ -7,6 +7,11 @@
 </head>
 	<body>
 
+		<audio id="rattle1" src="rattle1.mp3" preload="auto"></audio>
+		<audio id="rattle2" src="rattle2.mp3" preload="auto"></audio>
+		<audio id="rattle3" src="rattle3.mp3" preload="auto"></audio>
+		<audio id="rattle4" src="rattle4.mp3" preload="auto"></audio> 
+
 		<div class="main">
 			
 			<div class="skull">
@@ -28,11 +33,11 @@
 				<div class="neck"></div>
 
 				<div class="ribcage">
-					<div class="rib1"></div>
-					<div class="rib2"></div>
+					<div class="rib1" onclick="document.getElementById('rattle1').play();"></div>
+					<div class="rib2" onclick="document.getElementById('rattle4').play();"></div>
 					<div class="rib3"></div>
-					<div class="rib4"></div>
-					<div class="rib5"></div>
+					<div class="rib4" onclick="document.getElementById('rattle2').play();"></div>
+					<div class="rib5" onclick="document.getElementById('rattle3').play();"></div>
 					<div class="rib6"></div>
 					<div class="pelvis"></div>
 				</div>

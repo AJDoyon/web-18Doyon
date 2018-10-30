@@ -83,8 +83,7 @@
 }
 
 .block{
-	float:right;
-	width:50%;
+	width:100%;
 }
 
 .grad{
@@ -106,22 +105,22 @@
 
 .thimg{
 	max-width: 40%;
-	float:left;
+	float:right;
 }
 
 .Luntz-1{
-	max-width: 75%;
+	max-width: 50%;
 	float:right;	
 }
 
 .Luntz-2{
-	max-width: 75%;
+	max-width: 50%;
 	float:right;	
 }
 
 @media only screen and (max-width: 320px){
 	body{
-		background-color: black;
+		background-color: grey;
 			}
 	
 	#container{
@@ -135,11 +134,11 @@
 	margin:0 auto;
 	background-color: red;
 	text-align:center;
-	font-size: 18px;
+	font-size: 14px;
 	}
 
 .body{
-	width:90vw;
+	width:80vw;
 	margin:0 auto;
 	background-color: yellow;
 	font-size: 12px;
@@ -147,14 +146,26 @@
 
 	.one{
 	width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
 	}
 
 	.two{
 	width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
+	}
+
+	.four{
+		width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
 	}
 
 	.five{
 	width:calc((100%) - 25px);
+	float:left;
+	margin-left:50px auto;
 	}
 
 	.six{
@@ -163,6 +174,7 @@
 
 	.seven{
 		width:calc((100%) - 25px);
+		float:left;
 	}
 
 	.eight{
@@ -174,30 +186,144 @@
 	}
 
 	img{
-	max-width: 100%;	
 	}
 
 	.grad{
 	max-width: 100%;
 	margin-right:50px auto;
-	float:right;	
+	float:left;	
 	}
 
 	.thimg{
 		max-width: 100%;
 	margin-right:50px auto;
-	float:right;	
+	float:left;	
+	}
+
+	.block{
+	width:calc((100%) - 25px);
+	float:left;
+}
+
+.bernie{
+	max-width: 100%;
+	width:50%;
+	float:left;
+}
+
+.strength{
+	max-width: 100%;
+	width:50%;
+	float:left;
+}
+
+.Luntz-1{
+	max-width: 100%;
+	float:left;
+}
+
+.Luntz-2{
+	max-width: 100%;
+	float:left;
+}
+	
+}
+
+@media only screen and (max-width: 768px){
+
+	#container{
+		width:90vw;
+		margin:0 auto;
+		background-color: blue;
+	}
+
+	.grad{
+		max-width: 100%;
+		margin-left:50px auto;
+		float:left;	
+	}
+
+	.one{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.two{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.three{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.five{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.six{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.seven{
+		width:calc((100%) - 25px);
+
+		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.strength{
+		max-width: 100%;
+
+		width:calc((100%) - 25px);
+
+		
+		float:left;	
+	}
+
+	.bernie{
+		max-width: 100%;
+
+		width:calc((100%) - 25px);
+
+		
+
+		float:left;	
+	}
+
+	.block{
+		width:100%;
+		float:left;
 	}
 	
 }
 
-@media only screen and (max-width: 768px){ 
+
 }
 
 @media only screen and (max-width: 1024px){
 
 	#container{
-		width:75vw;
+		width:90vw;
 		margin:0 auto;
 		background-color: blue;
 	}
@@ -205,7 +331,7 @@
 
 
 	.headline{
-		width:60vw;
+		width:90vw;
 		margin:0 auto;
 		background-color: red;
 		text-align:center;
@@ -213,7 +339,7 @@
 	}
 
 	.body{
-		width:75vw;
+		width:90vw;
 		margin:0 auto;
 		background-color: yellow;
 		font-size: 18px;
@@ -227,7 +353,7 @@
 	}
 
 	.one{
-		width:calc((100% / 2) - 25px);
+		max-width:40%;
 
 		margin-left:50px auto;
 
@@ -235,16 +361,16 @@
 	}
 
 	.two{
-		width:calc((100% / 2) - 25px);
+		max-width:40%;
 
 		margin-left:50px auto;
-		margin:40px auto;
 		float:left;	
 	}
 
 	.three{
 		width:calc((100%) - 25px);
-		float:left;	
+		float:left;
+		margin-top: 100px auto;
 	}
 
 	.four{
@@ -283,23 +409,22 @@
 
 	.block{
 		float:right;
-		width:50%;
+		max-width:50%;
 	}
 
 	.grad{
 		max-width: 50%;
-		width: calc((100%/2) -25px);
 		margin-right:0px auto;
 		float:right;	
 	}
 
 	.strength{
-		max-width: 20%;
+		max-width: 30%;
 		float:left;
 	}
 
 	.bernie{
-		max-width: 20%;
+		max-width: 30%;
 		float:left;
 	}
 
@@ -309,13 +434,13 @@
 	}
 
 	.Luntz-1{
-		max-width: 100%;
-		float:right;	
+		max-width: 50%;
+		float:left;	
 	}
 
 	.Luntz-2{
-		max-width: 100%;
-		float:right;	
+		max-width: 50%;
+		float:left;	
 	}
 
 

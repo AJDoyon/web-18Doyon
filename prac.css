@@ -31,7 +31,6 @@
 .one{
 	width:calc((100%) - 25px);
 
-	margin-left:50px auto;
 
 	float:left;	
 }
@@ -39,7 +38,7 @@
 .two{
 	width:calc((100% / 2) - 25px);
 
-	margin-left:50px auto;
+
 	float:left;	
 }
 
@@ -54,14 +53,14 @@
 }
 
 .five{
-	width:calc((100% / 2) - 25px);
+	width:calc((100%) - 25px);
 
 	margin-left:50px auto;
 	float:left;	
 }
 
 .six{
-	width:calc((100% / 2) - 25px);
+	width:calc((100%) - 25px);
 
 	margin-left:50px auto;
 	float:left;	
@@ -69,7 +68,7 @@
 
 .seven{
 	width:calc((50%));
-	float:right;	
+	float:left;	
 }
 
 .eight{
@@ -84,6 +83,7 @@
 
 .block{
 	width:100%;
+	margin:10px;
 }
 
 .grad{
@@ -104,8 +104,8 @@
 }
 
 .thimg{
-	max-width: 40%;
-	float:right;
+	max-width: 100%;
+	float:left;
 }
 
 .Luntz-1{

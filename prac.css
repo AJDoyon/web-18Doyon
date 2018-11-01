@@ -84,6 +84,7 @@
 .block{
 	width:100%;
 	margin:10px;
+	float:left;
 }
 
 .grad{
@@ -360,7 +361,7 @@
 	margin:0 auto;
 	background-color: red;
 	text-align:center;
-	font-size: 14px;
+	font-size: 20px;
 	}
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{

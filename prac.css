@@ -147,15 +147,15 @@
 	}
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
-		margin:10px;
-		font-size:20px;
+		margin:10px auto;	
 
 	}
+
 
 	.one{
 		max-width:100%;
 
-		margin-left:50px auto;
+		
 
 		float:left;	
 	}
@@ -163,14 +163,14 @@
 	.two{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
+		
 		float:left;	
 	}
 
 	.three{
 		width:calc((100%) - 25px);
 		float:left;
-		margin-top: 100px auto;
+		
 	}
 
 	.four{
@@ -179,16 +179,16 @@
 	}
 
 	.five{
-		width:calc((100% / 2) - 25px);
+		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
+		
 		float:left;	
 	}
 
 	.six{
-		width:calc((100% / 2) - 25px);
+		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
+		
 		float:left;	
 	}
 
@@ -212,6 +212,10 @@
 		max-width:100%;
 	}
 
+	img{
+		margin:10px auto;
+	}
+
 	.grad{
 		max-width: 100%;
 		margin-right:0px auto;
@@ -219,7 +223,7 @@
 	}
 
 	.strength{
-		max-width: 50%;
+		max-width: 49.2%;
 		float:left;
 	}
 
@@ -239,7 +243,7 @@
 	}
 
 	.Luntz-2{
-		max-width: 50%;
+		max-width: 49.2%;
 		float:left;	
 	}
 
@@ -255,16 +259,18 @@
 		background-color: blue;
 	}
 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+		margin:10px auto;	
+
+	}
+
 	.grad{
 		max-width: 100%;
-		margin-left:50px auto;
 		float:left;	
 	}
 
 	.one{
 		width:calc((100%) - 25px);
-
-		margin-left:50px auto;
 
 		float:left;	
 	}
@@ -272,7 +278,6 @@
 	.two{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
 
 		float:left;	
 	}
@@ -280,7 +285,6 @@
 	.three{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
 
 		float:left;	
 	}
@@ -288,7 +292,6 @@
 	.five{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
 
 		float:left;	
 	}
@@ -296,7 +299,7 @@
 	.six{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
+
 
 		float:left;	
 	}
@@ -304,7 +307,13 @@
 	.seven{
 		width:calc((100%) - 25px);
 
-		margin-left:50px auto;
+
+		float:left;	
+	}
+
+	.eight{
+		width:calc((100%) - 25px);
+
 
 		float:left;	
 	}
@@ -354,6 +363,12 @@
 	font-size: 14px;
 	}
 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+		margin:10px auto;
+	
+
+	}
+
 .body{
 	width:80vw;
 	margin:0 auto;
@@ -362,53 +377,57 @@
 	}
 
 	.one{
-	width:calc((100%) - 25px);
+	width:calc((100%));
 	float:left;
 	max-width:100%;
-	margin-left:50px auto;
+	
 	}
 
 	.two{
-	width:calc((100%) - 25px);
+	width:calc((100%));
 	float:left;
 	max-width:100%;
-	margin-left:50px auto;
+	
 	}
 
 	.four{
 		width:calc((100%) - 25px);
 	float:left;
-	margin-left:50px auto;
+	
 	}
 
 	.five{
 	width:calc((100%) - 25px);
 	float:left;
-	margin-left:50px auto;
+	
 	}
 
 	.six{
 	width:calc((100%) - 25px);
+	
 	}
 
 	.seven{
 		width:calc((100%) - 25px);
 		float:left;
+
 	}
 
 	.eight{
 		width:calc((100%) - 25px);
+		
 	}
 
 	.nine{
 		width:calc((100%) - 25px);
+		
 	}
 
 	img{
 	}
 
 	.grad{
-	max-width: 100%;
+	width:calc((100%) - 25px)
 	margin-right:50px auto;
 	float:left;	
 	}

@@ -266,7 +266,7 @@
 	}
 
 	.grad{
-		max-width: 100%;
+		max-width:calc((100%) - 25px);
 		float:left;	
 	}
 
@@ -320,8 +320,6 @@
 	}
 
 	.strength{
-		max-width: 100%;
-
 		width:calc((100%) - 25px);
 
 		
@@ -329,17 +327,14 @@
 	}
 
 	.bernie{
-		max-width: 100%;
 
 		width:calc((100%) - 25px);
-
-		
 
 		float:left;	
 	}
 
 	.block{
-		width:100%;
+		width:calc((100%) - 25px);
 		float:left;
 	}
 
@@ -349,11 +344,11 @@
 	}
 
 	.Luntz-1{
-		max-width: 48%;
+		max-width: 50%;
 	}
 
 	.Luntz-2{
-		max-width: 47.3%;
+		max-width: 49.3%;
 		
 	}
 

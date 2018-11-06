@@ -33,19 +33,19 @@
 }
 
 .two{
-	width:calc((100% / 2) - 25px);
+	width:calc((100% / 4) - 25px);
 
 
 	float:left;	
 }
 
 .three{
-	width:calc((100% / 2) - 25px);
+	width:calc((100%) - 25px);
 	float:left;	
 }
 
 .four{
-	width:calc((100% / 2) - 25px);
+	width:calc((100%) - 25px);
 	float:right;	
 }
 
@@ -85,8 +85,7 @@
 }
 
 .grad{
-	max-width: 50%;
-	margin-right:50px auto;
+	max-width: calc((73%) - 25px);
 	float:right;	
 }
 
@@ -216,7 +215,7 @@
 	}
 
 	.grad{
-		max-width: 100%;
+		max-width: calc((100%) - 25px);
 		float:left;	
 	}
 
@@ -356,7 +355,7 @@
 	
 }
 
-@media only screen and (max-width: 3px){
+@media only screen and (max-width: 375px){
 	body{
 		background-color: grey;
 
@@ -435,7 +434,7 @@
 	}
 
 	.grad{
-	width:100%;
+	width:width:calc((100%) - 25px);
 	float:left;	
 	}
 

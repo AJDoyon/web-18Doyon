@@ -100,7 +100,7 @@
 }
 
 .thimg{
-	max-width: 100%;
+	max-width: calc((100%) - 25px);
 	float:left;
 	margin:10px;
 }
@@ -319,7 +319,7 @@
 	}
 
 	.strength{
-		width:calc((100%) - 25px);
+		max-width:calc((100%) - 25px);
 
 		
 		float:left;	
@@ -327,7 +327,7 @@
 
 	.bernie{
 
-		width:calc((100%) - 25px);
+		max-width:calc((100%) - 25px);
 
 		float:left;	
 	}
@@ -434,8 +434,8 @@
 	}
 
 	.grad{
-	width:width:calc((100%) - 25px);
-	float:left;	
+	width:calc((100%) - 25px);
+	float:left;
 	}
 
 	.thimg{
@@ -449,23 +449,23 @@
 	}
 
 	.bernie{
-		width:calc((100%) - 25px);
+		max-width:100%;
 		
 		float:left;
 	}
 
 	.strength{
-		width:calc((100%) - 25px);
+		max-width:100%;
 
 		float:left;
 	}
 
 	.Luntz-1{
-		max-width: 100%;
+		max-width:calc((100%) - 25px);
 	}
 
 	.Luntz-2{
-		max-width: 100%;
+		max-width:calc((100%) - 25px);
 		float:left;
 	}
 	

@@ -173,7 +173,7 @@
 	}
 
 	.four{
-		width:calc((100%));
+		width:calc((100%) - 25px);
 		float:left;	
 	}
 
@@ -192,17 +192,17 @@
 	}
 
 	.seven{
-		width:calc((100%));
-		float:right;	
+		width:calc((100%) - 25px);
+		float:left;	
 	}
 
 	.eight{
-		width:calc((100%));
+		width:calc((100%) - 25px);
 		float:left;	
 	}
 
 	.nine{
-		width:calc((100%));
+		width:calc((100%) - 25px);
 		float:left;
 	}
 
@@ -217,8 +217,7 @@
 
 	.grad{
 		max-width: 100%;
-		margin-right:0px auto;
-		float:right;	
+		float:left;	
 	}
 
 	.strength{

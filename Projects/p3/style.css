@@ -1,7 +1,6 @@
 #container{
 	width:75vw;
 	margin:0 auto;
-	
 }
 
 
@@ -46,8 +45,8 @@
 }
 
 .four{
-	width:calc((100%) - 25px);
-	float:left;	
+	width:calc((100% / 2) - 25px);
+	float:right;	
 }
 
 .five{
@@ -88,7 +87,7 @@
 .grad{
 	max-width: 50%;
 	margin-right:50px auto;
-	float:left;	
+	float:right;	
 }
 
 .strength{
@@ -97,7 +96,7 @@
 }
 
 .bernie{
-	max-width: 20%;
+	max-width: 20.4%;
 	float:left;
 }
 
@@ -120,6 +119,7 @@
 @media only screen and (max-width: 1024px){
 	body {
 		background-color: magenta;
+
 	}
 	#container{
 		width:90vw;
@@ -132,7 +132,7 @@
 	.headline{
 		width:90vw;
 		margin:0 auto;
-	
+		
 		text-align:center;
 		font-size: 30px;
 	}
@@ -252,14 +252,13 @@
 
 @media only screen and (max-width: 768px){
 
-	body {
-		background-color: white;
-	}
+		body{
+		background-color: blue;
+			}
 
 	#container{
 		width:90vw;
 		margin:0 auto;
-		
 	}
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
@@ -344,12 +343,29 @@
 		width:100%;
 		float:left;
 	}
+
+	.thimg{
+		max-width: calc((100%) - 25px);
+		float:left;
+	}
+
+	.Luntz-1{
+		max-width: 48%;
+	}
+
+	.Luntz-2{
+		max-width: 47.3%;
+		
+	}
+
+
 	
 }
 
 @media only screen and (max-width: 320px){
 	body{
 		background-color: grey;
+
 			}
 	
 	#container{
@@ -368,8 +384,6 @@
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
 		margin:10px auto;
-	
-
 	}
 
 .body{
@@ -426,18 +440,13 @@
 		
 	}
 
-	img{
-	}
-
 	.grad{
-	width:calc((100%) - 25px)
-	
+	width:100%;
 	float:left;	
 	}
 
 	.thimg{
-		max-width: 100%;
-	
+		width:calc((100%) - 25px);
 	float:left;	
 	}
 
@@ -447,13 +456,13 @@
 	}
 
 	.bernie{
-		max-width: 100%;
+		width:calc((100%) - 25px);
 		
 		float:left;
 	}
 
 	.strength{
-		max-width: 100%;
+		width:calc((100%) - 25px);
 
 		float:left;
 	}

@@ -116,10 +116,7 @@
 }
 
 @media only screen and (max-width: 1024px){
-	body {
-		background-color: magenta;
 
-	}
 	#container{
 		width:90vw;
 		margin:0 auto;
@@ -250,9 +247,7 @@
 
 @media only screen and (max-width: 768px){
 
-		body{
-		background-color: blue;
-			}
+	
 
 	#container{
 		width:90vw;
@@ -260,8 +255,8 @@
 	}
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
-		margin:10px auto;	
-
+		margin:10px auto;
+		
 	}
 
 	.grad{
@@ -356,10 +351,6 @@
 }
 
 @media only screen and (max-width: 375px){
-	body{
-		background-color: grey;
-
-			}
 	
 	#container{
 	width:90vw;
@@ -377,6 +368,7 @@
 
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
 		margin:10px auto;
+		color:black;
 	}
 
 .body{

@@ -57,24 +57,18 @@ h2{
 }
 
 .boing{
-	width:10vw;
-	height:20vh;
+	width:500px;
+	height:500px;
 	background-color:yellow;
-	float:left;
+	margin-left:550px;
 }
 
 .boinged{
-	width:10vw;
-	height:20vh;
+	width:500px;
+	height:500px;
 	background-color:orange;
 	border-radius:20px;
-	float:left;
-}
-
-.empty{
-	width:7.5vw;
-	height:20vh;
-	float:left;
+	margin-left:550px;
 }
 
 .jqDClick{

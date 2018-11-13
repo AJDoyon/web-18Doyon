@@ -30,4 +30,17 @@ function demoFunction() {
         $("#booga")[0].play();
 
     });
+
+    $('.horned').click(function() {
+      $("#Screamy")[0].play();
+    });
+
+    $('.there').click(function() {
+      $("#Stupid")[0].play();
+    });
+
+    $('.calm').click(function() {
+      $("#Sloth")[0].play();
+      $('.Nelly').toggleClass('Nellied');
+    });
 }

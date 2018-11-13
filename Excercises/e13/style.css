@@ -88,3 +88,32 @@ h2{
 	background-image: url("Spooky.png");
 	margin-left:550px;
 }
+
+.Screamer{
+	width:825px;
+	height:549px;
+	cursor:pointer;
+	margin-left:400px;
+	margin-bottom:20px;
+}
+
+.Stupid{
+	cursor:pointer;
+	margin-left:600px;
+}
+
+.Nelly{
+	background-color: blue;
+	width:640px;
+	height:360px;
+	margin-left:450px;
+	cursor:pointer;
+}
+
+.Nellied{
+	background-image: url("nelly.png");
+	width:640px;
+	height:360px;
+	margin-left:450px;
+	cursor:pointer;
+}

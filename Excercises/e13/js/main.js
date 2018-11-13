@@ -26,7 +26,7 @@ function demoFunction() {
     });
 
     $('.jqDClick').dblclick(function() {
-        $('.jumpscare').toggleClass('jumpscared');
+        $('.jumpscare').toggleClass('jumpscary');
         $("#booga")[0].play();
 
     });

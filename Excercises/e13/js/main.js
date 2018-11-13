@@ -35,7 +35,7 @@ function demoFunction() {
       $("#Screamy")[0].play();
     });
 
-    $('.there').click(function() {
+    $('.there').hover(function() {
       $("#Stupid")[0].play();
     });
 

@@ -90,11 +90,11 @@ h2{
 }
 
 .Screamer{
-	width:825px;
-	height:549px;
+	width:800px;
+	height:608px;
 	cursor:pointer;
 	margin-left:400px;
-	margin-bottom:20px;
+	margin-top:-80px;
 }
 
 .Stupid{

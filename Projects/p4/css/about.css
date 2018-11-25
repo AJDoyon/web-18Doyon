@@ -1,0 +1,22 @@
+.logo{
+	max-width: calc((35%) - 25px);
+	margin-left:130px;
+}
+
+
+body{
+	background-color:purple;
+}
+
+p{
+	width:600px;
+	font-size:17px;
+}
+
+.describe{
+	margin-left:25px;
+	background-color:green;
+	width:600px;
+	padding:7px;
+	border-radius:7px;
+}

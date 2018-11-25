@@ -1,0 +1,13 @@
+.logo{
+	max-width: calc((60%) - 25px);
+	margin-left:325px;
+}
+
+.center{
+	max-width: calc((50%) - 25px);
+	margin-left:400px;
+}
+
+body{
+	background-color:purple;
+}

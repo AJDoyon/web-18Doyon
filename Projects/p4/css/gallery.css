@@ -1,0 +1,26 @@
+.logo{
+	max-width: calc((35%) - 25px);
+	margin-left:225px;
+}
+
+.bullets{
+	font-size:18px;
+	width:600px;
+}
+
+p{
+	width:640px;
+	font-size:17px;
+}
+
+.paragraph{
+	margin-left:25px;
+}
+
+.Show{
+	float:right;
+}
+
+.mySlides {
+	display:none;
+}

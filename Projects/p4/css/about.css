@@ -10,11 +10,12 @@ body{
 
 p{
 	width:600px;
-	font-size:17px;
+	font-size:18px;
 }
 
 .describe{
 	margin-left:25px;
+	margin-top:25px;
 	background-color:green;
 	width:600px;
 	padding:7px;
@@ -22,10 +23,11 @@ p{
 }
 
 .image{
-	
-	margin-left:700px;
+	max-width: calc((45%) - 25px);
+	margin-left:840px;
+	margin-top:-460px;
 }
 
-.buddies{
-	max-width: calc((50%) - 25px);
+h1{
+	font-size:40px;
 }

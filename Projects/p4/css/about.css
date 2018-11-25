@@ -20,3 +20,12 @@ p{
 	padding:7px;
 	border-radius:7px;
 }
+
+.image{
+	
+	margin-left:700px;
+}
+
+.buddies{
+	max-width: calc((50%) - 25px);
+}

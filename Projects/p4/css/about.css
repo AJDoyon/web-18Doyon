@@ -41,3 +41,13 @@ h1{
 	border-radius:20px;
 	float:right;
 }
+
+.list{
+	background-color: green;
+	width:180px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	float:right;
+}

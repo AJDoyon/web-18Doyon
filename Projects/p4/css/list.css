@@ -13,11 +13,32 @@ img{
 }
 
 .buttons{
-	margin-top:50px;
+	margin-top:25px;
 	width:1500px;
 	background-color:green;
 }
 
 .one{
 	margin-left:40px;
+}
+
+.home{
+	background-color: green;
+	width:150px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:400px;
+}
+
+.about{
+	background-color: green;
+	width:150px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:940px;
+	margin-top:-127px;
 }

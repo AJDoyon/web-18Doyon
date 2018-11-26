@@ -1,0 +1,23 @@
+.logo{
+	max-width: calc((60%) - 25px);
+	margin-left:325px;
+}
+
+
+body{
+	background-color:purple;
+}
+
+img{
+	max-width:340px;
+}
+
+.buttons{
+	margin-top:50px;
+	width:1500px;
+	background-color:green;
+}
+
+.one{
+	margin-left:40px;
+}

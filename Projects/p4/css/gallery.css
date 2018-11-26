@@ -17,6 +17,8 @@ p{
 	margin-left:25px;
 	background-color: green;
 	width:650px;
+	padding:7px;
+	border-radius: 10px;
 }
 
 .Show{
@@ -29,4 +31,34 @@ p{
 
 body{
 	background-color:purple;
+}
+
+.list{
+	background-color: green;
+	width:180px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	float:right;
+}
+
+.about{
+	background-color: green;
+	width:150px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	float:right;
+}
+
+.home{
+	background-color: green;
+	width:180px;
+	text-align: center;
+	font-size: 40px;
+	padding:40px;
+	border-radius:20px;
+	float:right;
 }

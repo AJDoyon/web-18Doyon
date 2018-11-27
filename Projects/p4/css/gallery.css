@@ -1,6 +1,6 @@
 .logo{
-	max-width: calc((35%) - 25px);
-	margin-left:225px;
+	max-width: calc((60%) - 25px);
+	margin-left:325px;
 }
 
 .bullets{
@@ -22,7 +22,7 @@ p{
 }
 
 .Show{
-	float:right;
+	float:left;
 }
 
 .mySlides {
@@ -34,31 +34,57 @@ body{
 }
 
 .list{
-	background-color: green;
+	
 	width:180px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 100px;
 	padding:40px;
 	border-radius:20px;
-	float:right;
+	margin-left:940px;
+	margin-top:-197px;
+	
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.home:hover{
+	color:red;
+}
+.list:hover{
+	color:red;
+}
+.about:hover{
+	color:red;
 }
 
 .about{
-	background-color: green;
+	
 	width:150px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 100px;
 	padding:40px;
 	border-radius:20px;
-	float:right;
+	margin-left:600px;
+	margin-top:-197px;
+	
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
 }
 
 .home{
-	background-color: green;
+	
 	width:180px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 100px;
 	padding:40px;
 	border-radius:20px;
-	float:right;
+	margin-left:280px;
+
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
 }

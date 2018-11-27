@@ -4,8 +4,8 @@
 }
 
 .center{
-	max-width: calc((50%) - 25px);
-	margin-left:400px;
+	max-width: calc((60%) - 25px);
+	margin-left:325px;
 }
 
 body{
@@ -13,22 +13,36 @@ body{
 }
 
 .about{
-	background-color: green;
+	
 	width:150px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 120px;
 	padding:40px;
 	border-radius:20px;
-	margin-left:400px;
+	margin-left:330px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.about:hover{
+	color:red;
 }
 
 .list{
-	background-color: green;
+	
 	width:180px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 120px;
 	padding:40px;
 	border-radius:20px;
-	margin-left:900px;
-	margin-top:-127px;
+	margin-left:830px;
+	margin-top:-220px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.list:hover{
+	color:red;
 }

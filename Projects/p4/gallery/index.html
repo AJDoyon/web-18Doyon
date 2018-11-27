@@ -11,9 +11,9 @@
 <body>
 	<img class="logo" src="../img/logo.png">
 
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
 	<a href="../list/index.html"><div class="list">GALLERY</div></a>
-	<a href="../about/index.html"><div class="about">ABOUT</div></a>
-		<a href="../index.html"><div class="home">HOME</div></a>
 
 	<div class="paragraph">
 		<h1>Mole-dive Attack Beast: SCORPONOK</h1>
@@ -32,17 +32,35 @@
 	</div>
 
 		<div class="Show">
-		  <img class="mySlides" src="../img/img2.jpg" style="width:25%">
-		  <img class="mySlides" src="../img/img3.jpg" style="width:25%">
-		  <img class="mySlides" src="../img/img4.jpg" style="width:25%">
-		  <img class="mySlides" src="../img/img5.jpg" style="width:25%">
+		  <img class="mySlides" src="../img/img6.jpg" style="width:50%">
+		  <img class="mySlides" src="../img/img7.jpg" style="width:50%">
+		  <img class="mySlides" src="../img/img8.jpg" style="width:50%">
+		  <img class="mySlides" src="../img/img9.jpg" style="width:50%">
 
 		  <button class="left" onclick="plusDivs(-1)">&#10094;</button>
 		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 
 
-	
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 	<script
 		src="https://code.jquery.com/jquery-3.3.1.js"

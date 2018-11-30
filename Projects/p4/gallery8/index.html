@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gundammu</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+
+
+
+</head>
+<body>
+	<img class="logo" src="../img/logo.png">
+
+<div class="nav">
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
+	<a href="../list/index.html"><div class="list">GALLERY</div></a>
+</div>
+
+	
+	<div class="paragraph">
+		<h1>Pro Cycle-Racer: RANSACK</h1>
+
+		<p>(Scout Class, $6.99, 2006)</p>	
+			<ul class="bullets">	
+				<li>(+)Is solidly constructed in both modes, with a surprising amount of flexibility</li>
+				<li>(+)The transformation is simultaneously easy, relaxing and makes a huge difference</li>
+				<li>(-)His cyber-key gimmick is the <i>only</i> way he can fully arm himself</li>
+			</ul>
+		<p>This guy was a canterbury tale and a half! This character is another one-of-a-duo, and I was able to get BOTH figures of this guy's partner, but never of Ransack himself. Things got desperate as the show and toyline were winding down, yet, by some breed of miracle, I was able to his <i>repaint</i> before it went out of production. And unlike Nemesis and Cannonball, this was the same character! Happy times for all!</p>
+
+		<p>The Decepticrew has no sortage of loud-mouthed, egotistical lamebrains, but Ransack is most obnoxious of them all, to both friend <i>and</i> foe. The fasted of the crew in both modes, Ransack takes the mantle of skirmish master, peppering bigger foes into submission with hit and run tactics. Outside of the warzone, Ransack fancies himself a comedian, produces a seemingly bottomless supply of gag-inducing puns, one-liners and punchlines.</p>
+	
+	</div>
+
+	<div class="Show8">
+ 		
+
+		  <img class="mySlides" src="../img/img34.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img35.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img36.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img37.jpg" style="width:75%">
+
+		 <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+
+	<script src="../gallery/main.js"></script>
+
+	
+</body>
+</html>

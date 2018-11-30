@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Squeezit!</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+
+
+
+</head>
+<body>
+	<img class="logo" src="../img/logo.png">
+
+<div class="nav">
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
+	<a href="../list/index.html"><div class="list">GALLERY</div></a>
+</div>
+
+	
+	<div class="paragraph">
+		<h1>Tectonic Gunner: HARDTOP</h1>
+
+		<p>(Scout Class, $6.99, 2005)</p>	
+			<ul class="bullets">	
+				<li>(+)Is nice and poseable in robot mode, especially for his stature</li>
+				<li>(+)Has a flashy transformation for his scale</li>
+				<li>(-)His color scheme is a tad gaudy; teal on dark green? Sorry mate, but no</li>
+				<li>(-)His cyber key gimmick is quite sad... not that you'll be seing it</li>
+			</ul>
+		<p>Hardtop is a flatline when it comes to memory. Saw him in a catalogue, and then bought him. He wasn't in the anime, and was never in <i>any</i> fiction at all. As such, I had to make my own fun when it came to his character... and rarely did.</p>
+
+		<p>He comes with a sniper rifle accesory that houses his cyber-key gimmick, which is a flip out barrel... but I couldn't find mind. So, have a Bionicle gun I found instead. People remember Bionicle, right?</p>
+
+		<p>Hardtop's is a simple life; as heavy weapons guy, he uses his weapon. His big, heavy weapon. He typically serves as cover fire for the frontline boys, essentially being a turret who rarely moves from one spot. When he <i>does</i> move, it's typically a victory lap as he turns the already flattened area into swiss cheese. Hardtop typically keeps to himself, but isn't afraid of conversation. He likes walks in the snow, smooth jazz and a warm cup of coffee by his side.</p>
+	
+	</div>
+
+	<div class="Show3">
+ 		
+
+		  <img class="mySlides" src="../img/img14.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img15.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img16.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img17.jpg" style="width:75%">
+
+		 <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+
+	<script src="../gallery/main.js"></script>
+
+	
+</body>
+</html>

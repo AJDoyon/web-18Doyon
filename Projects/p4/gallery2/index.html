@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jelly Baby?</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+
+
+
+</head>
+<body>
+	<img class="logo" src="../img/logo.png">
+
+<div class="nav">
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
+	<a href="../list/index.html"><div class="list">GALLERY</div></a>
+</div>
+
+	
+	<div class="paragraph">
+		<h1>Nightmare Tracker: NEMESIS BREAKER</h1>
+
+		<p>(Voyager Class, $19.99, 2006)</p>	
+			<ul class="bullets">	
+				<li>(+)A pretty kitty, with style not usually seen in this franchise</li>
+				<li>(+)Has hand articulation that most figures lack</li>
+				<li>(-)The rest of his arms are pretty pathetic, being unconventionally jointed in all of the wrong ways</li>
+				<li>(-)His beast mode isn't particulalrly poseable, either</li>
+			</ul>
+		<p>This is the first repaint on this list, and easily the most shameless. I already had this guy's template, Leobreaker, and there is absolutely no differences in engineering between the two at all. BUT, an episode of the cartoon showed off this super-cool new evil clone of one of our heroes, so I <i>had</i> to get my grubby little mits on him. He has a third "arm mode" that attaches to other figures, but I won't show it here; you're not missing much.</p>
+
+		<p>Nemesis is the token hunter of this little click. He ammuses himself with the thrill of stalking his prey (typically stragglers from earlier skirmishes) when left to his own devices, and is all business when fighting on the front line. He isn't without his eccentricities; he sleepy bordering on narcoleptic, and tends to walk on all fours even in robot mode. Despite all of this, he still serves as something of a father figure among the team, specifically to fellow beastie Undermine.</p>
+
+		<p>He prefers to go by the nickname "Vicious".</p>
+	
+	</div>
+
+	<div class="Show2">
+ 		
+
+		  <img class="mySlides" src="../img/img10.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img11.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img12.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img13.jpg" style="width:75%">
+
+		 <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+
+	<script src="../gallery/main.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOAH WOAH</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+
+
+
+</head>
+<body>
+	<img class="logo" src="../img/logo.png">
+
+<div class="nav">
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
+	<a href="../list/index.html"><div class="list">GALLERY</div></a>
+</div>
+
+	
+	<div class="paragraph">
+		<h1>Tornado of the Freeway: DIRT BOSS</h1>
+
+		<p>(Deluxe Class, $9.99, 2005)</p>	
+			<ul class="bullets">	
+				<li>(+)Has a unique alt mode with a unique cyber-key gimmick</li>
+				<li>(-)Needs said cyber key just to transform</li>
+				<li>(-)Has a MONSTROUS backpack which makes balance an issue</li>
+			</ul>
+		<p>THIS guy is something of a history in my eyes. Saw him in the anime while having no idea what his beef actually WAS; he's a jerk who hates his lackies. But who cares? His vehicle mode does the splits! NEED! So naturally I bought the guy, and it turns out he's a bit of a clod. That part of his alt-mode that does said splits lays on his back in it's <i>entirety</i>, meaning he can't pose much beyond a squat of rage and/or constipation. Ten bucks well spent.</p>
+
+		<p>This is the stereotypical violent jock of this squad. A brawler at heart, Dirt Boss delights in driving right into the place where he's most likely to get killed and then violently flailing his fists in ever direction allowed. He also prides himself on being the team's best driver, wasting hours performing frivolous and bland stunts. This blatant ego-mania bars him from the others' good graces, and makes him a bad influence to poor Undermine.</p>
+	
+	</div>
+
+	<div class="Show4">
+ 		
+
+		  <img class="mySlides" src="../img/img18.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img19.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img20.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img21.jpg" style="width:75%">
+
+		 <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+
+	<script src="../gallery/main.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOAH WOAH</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+
+
+
+</head>
+<body>
+	<img class="logo" src="../img/logo.png">
+
+<div class="nav">
+	<a href="../index.html"><div class="home">HOME</div></a>
+	<a href="../about/index.html"><div class="about">ABOUT</div></a>	
+	<a href="../list/index.html"><div class="list">GALLERY</div></a>
+</div>
+
+	
+	<div class="paragraph">
+		<h1>Cyan Strongman: MUDFLAP</h1>
+
+		<p>(Voyager Class, $19.99, 2005)</p>	
+			<ul class="bullets">	
+				<li>(+)Has a VERY impressive crane, that even extends for the sake of his cyber key gimmick</li>
+				<li>(+)Is nice and poseable in robot mode, even with all of his arm-junk</li>
+				<li>(-)Said arm junk is the aforemention MASSIVE crane, and an arm cannon that is on a flimsy joint and bounces all over the place</li>
+				<li>(-)Has a very unfortunate name</li>
+			</ul>
+		<p>Turns out, this guy didn't sell well at all. Probably because of that glorious name, right up there with Overcharge, Killbison and Shothole as one of the greatest a transformer has ever donned! Mudflap here was a later, mode decadent purchase, and I had myself some fun slamming that massive crane of his straight into his foes. That being said, his arm cannon was as annying back then as it is now; it just pops up whenever it wants and wiggles around like a decapitated bird.</p>
+
+		<p>Mudflap is the team's construction crew... in it's entirety. It's his responsibility alone to set up camps, barriers and temporary bases when out on long journies, and he has just enough muscle and tools to back it up. This doesn't mean he's <i>happy</i> with his position, however; he's the notoriously grouchy old man of the crew, having come on board so that he could <i>destroy</i> things. Don't break his buildings, though; the only thing he hates more than his job is when he has to do it all over again.</p>
+	
+	</div>
+
+	<div class="Show6">
+ 		
+
+		  <img class="mySlides" src="../img/img26.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img27.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img28.jpg" style="width:75%">
+		  <img class="mySlides" src="../img/img29.jpg" style="width:75%">
+
+		 <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+	
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+
+	<script src="../gallery/main.js"></script>
+
+	
+</body>
+</html>

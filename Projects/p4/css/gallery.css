@@ -22,7 +22,48 @@ p{
 }
 
 .Show{
-	float:right;
+	margin-left:970px;
+	margin-top:-530px;
+}
+
+.Show1{
+	margin-left:970px;
+	margin-top:-550px;
+}
+
+.Show2{
+	margin-left:970px;
+	margin-top:-550px;
+}
+
+.Show3{
+	margin-left:970px;
+	margin-top:-510px;
+}
+
+.Show4{
+	margin-left:970px;
+	margin-top:-450px;
+}
+
+.Show5{
+	margin-left:970px;
+	margin-top:-550px;
+}
+
+.Show6{
+	margin-left:970px;
+	margin-top:-550px;
+}
+
+.Show7{
+	margin-left:970px;
+	margin-top:-490px;
+}
+
+.Show8{
+	margin-left:970px;
+	margin-top:-470px;
 }
 
 .mySlides {
@@ -87,4 +128,14 @@ body{
 	color:green;
 	font-family: 'Bayformance';
 	text-decoration: none;
+}
+
+
+
+.right{
+	margin-left:384px;
+}
+
+.filler{
+	width:300px;
 }

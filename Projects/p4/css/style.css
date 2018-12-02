@@ -1,5 +1,5 @@
 .logo{
-	max-width: calc((60%) - 25px);
+	max-width: calc(60%);
 	margin-left:325px;
 }
 
@@ -45,4 +45,82 @@ body{
 
 .list:hover{
 	color:red;
+}
+
+@media only screen and (max-width: 1024px){
+
+	.logo{
+	max-width: 96vw;
+	margin-left:0px;
+	}
+
+	.about{
+		margin-left:0px;
+		font-size: 160px;
+	}
+
+	.list{
+		margin-left:500px;
+		font-size: 160px;
+		margin-top:-265px;
+	}
+
+	.center{
+	max-width: calc(100%);
+	margin-left:0px;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+
+.logo{
+	max-width: calc(100%);
+	margin-left:0px;
+	}
+
+	.about{
+		margin-left:0px;
+		font-size: 100px;
+	}
+
+	.list{
+		margin-left:380px;
+		font-size: 100px;
+		margin-top:-198px;
+	}
+}
+
+@media only screen and (max-width: 375px){
+
+	.logo{
+	max-width: calc(100%);
+	margin-left:0px;
+	}
+	
+
+	.about{
+		
+text-align: center;
+	font-size: 90px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:50px;
+}
+
+.list{
+	
+text-align: center;
+	font-size: 90px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:30px;
+	margin-top: 0px;
+}
+
+	.center{
+	max-width: calc(100%);
+	margin-left:0px;
+	}
+
 }

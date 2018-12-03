@@ -150,6 +150,10 @@ body{
 
 @media only screen and (max-width: 375px){
 
+	h1{
+		width:250px;
+	}
+
 	.logo{
 	max-width: calc(100%);
 	margin-left:0px;
@@ -206,14 +210,56 @@ body{
 	margin-top:0px;
 }
 
+.Show1{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show2{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show3{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show4{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show5{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show6{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show7{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.Show8{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+
+
 .right{
-	margin-left:145px;
+	margin-left:126px;
 }
 
 .paragraph{
 	margin-left:5px;
 	color: white;
-	width:375px;
+	width:75px;
 	padding:7px;
 	border-radius: 10px;
 }

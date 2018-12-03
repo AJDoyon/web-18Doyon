@@ -15,7 +15,7 @@ p{
 
 .paragraph{
 	margin-left:25px;
-	background-color: green;
+	color: white;
 	width:650px;
 	padding:7px;
 	border-radius: 10px;
@@ -138,4 +138,94 @@ body{
 
 .filler{
 	width:300px;
+}
+
+@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 375px){
+
+	.logo{
+	max-width: calc(100%);
+	margin-left:0px;
+}
+
+.home{
+	
+	width:0px;
+	text-align: center;
+	font-size: 80px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:64px;
+
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.about{
+	
+	width:0px;
+	text-align: center;
+	font-size: 80px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:50px;
+	margin-top:10px;
+	
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.list{
+	
+	width:0px;
+	text-align: center;
+	font-size: 80px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:30px;
+	margin-top:25px;
+	
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.Show{
+	margin-left:20px;
+	margin-top:0px;
+}
+
+.right{
+	margin-left:145px;
+}
+
+.paragraph{
+	margin-left:5px;
+	color: white;
+	width:375px;
+	padding:7px;
+	border-radius: 10px;
+}
+
+.bullets{
+	font-size:18px;
+	width:200px;
+}
+
+p{
+	width:250px;
+	font-size:17px;
+}
+
 }

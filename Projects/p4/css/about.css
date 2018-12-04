@@ -69,3 +69,33 @@ h1{
 .list:hover{
 	color:red;
 }
+
+@media only screen and (max-width: 1024px){
+
+	.logo{
+	max-width: calc(100%);
+	margin-left:0px;
+	}
+
+	.home{
+	width:150px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:400px;
+	margin-top:-200px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 375px){
+
+}

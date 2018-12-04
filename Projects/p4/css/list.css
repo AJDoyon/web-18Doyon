@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Bayformance';
+  src: url('Bayformance.eot'); /* IE9 Compat Modes */
+  src: url('Bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Bayformance.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Bayformance.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+
 .logo{
 	max-width: calc((60%) - 25px);
 	margin-left:325px;
@@ -20,6 +33,7 @@ img{
 
 .one{
 	margin-left:40px;
+	margin-bottom:40px;
 }
 
 .home{

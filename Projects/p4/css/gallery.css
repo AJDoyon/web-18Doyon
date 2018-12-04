@@ -142,6 +142,125 @@ body{
 
 @media only screen and (max-width: 1024px){
 
+	p{
+	width:400px;
+	font-size:17px;
+	}
+
+	.bullets{
+		font-size:18px;
+	width:300px;
+	}
+
+	h1{
+		width:300px;
+	}
+
+	.paragraph{
+	margin-left:5px;
+	color: white;
+	width:75px;
+	padding:7px;
+	border-radius: 10px;
+	}
+
+	.logo{
+		max-width: calc(100%);
+		margin-left:0px;
+	}
+
+	.home{
+	
+	width:180px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:20px;
+
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+	}
+
+	.about{
+	
+	width:150px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:290px;
+	margin-top:-197px;
+	
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.list{
+	
+	width:180px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:570px;
+	margin-top:-197px;
+	
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.Show{
+	margin-left:480px;
+	margin-top:-730px;
+}
+
+.Show1{
+	margin-left:480px;
+	margin-top:-800px;
+}
+
+.Show2{
+	margin-left:480px;
+	margin-top:-790px;
+}
+.Show3{
+	margin-left:480px;
+	margin-top:-710px;
+}
+.Show4{
+	margin-left:480px;
+	margin-top:-660px;
+}
+.Show5{
+	margin-left:480px;
+	margin-top:-710px;
+}
+.Show6{
+	margin-left:480px;
+	margin-top:-760px;
+}
+
+.Show7{
+	margin-left:480px;
+	margin-top:-730px;
+}
+
+.Show8{
+	margin-left:480px;
+	margin-top:-660px;
+}
+
+.right{
+	margin-left:320px;
+}
+
+
 }
 
 @media only screen and (max-width: 768px){

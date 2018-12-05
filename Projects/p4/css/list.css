@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Bayformance';
-  src: url('Bayformance.eot'); /* IE9 Compat Modes */
-  src: url('Bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Bayformance.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Bayformance.woff') format('woff'), /* Pretty Modern Browsers */
-       url('Bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('bayformance.eot'); /* IE9 Compat Modes */
+  src: url('bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('bayformance.woff2') format('woff2'), /* Super Modern Browsers */
+       url('bayformance.woff') format('woff'), /* Pretty Modern Browsers */
+       url('bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 

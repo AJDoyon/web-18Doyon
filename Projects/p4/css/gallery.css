@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Bayformance';
+  src: url('bayformance.eot'); /* IE9 Compat Modes */
+  src: url('bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('bayformance.woff2') format('woff2'), /* Super Modern Browsers */
+       url('bayformance.woff') format('woff'), /* Pretty Modern Browsers */
+       url('bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
 .logo{
 	max-width: calc((60%) - 25px);
 	margin-left:325px;
@@ -264,6 +276,136 @@ body{
 }
 
 @media only screen and (max-width: 768px){
+
+	.home{
+	
+	width:0px;
+	text-align: center;
+	font-size: 100px;
+	padding:0px;
+	border-radius:20px;
+	margin-left:4px;
+
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+
+	.about{
+	
+	width:150px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:185px;
+	margin-top:-156px;
+	
+
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.list{
+	
+	width:180px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:430px;
+	margin-top:-197px;
+	
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+.Show{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show1{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show2{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show3{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show4{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show5{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show6{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show7{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.Show8{
+	margin-left:20px;
+	margin-top:0px;
+	margin-left:160px;
+}
+
+.right{
+	margin-left:370px;
+}
+
+.paragraph{
+	margin-left:55px;
+	color: white;
+	width:100px;
+	padding:7px;
+	border-radius: 10px;
+}
+
+p{
+	width:600px;
+	text-align: center;
+}
+
+.bullets{
+	text-align: center;
+	margin-left:110px;
+}
+
+h1{
+	text-align: center;
+	margin-left:150px;
+}
+
+
 
 }
 

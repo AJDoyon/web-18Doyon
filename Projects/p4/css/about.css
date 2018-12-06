@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Bayformance';
+  src: url('bayformance.eot'); /* IE9 Compat Modes */
+  src: url('bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('bayformance.woff2') format('woff2'), /* Super Modern Browsers */
+       url('bayformance.woff') format('woff'), /* Pretty Modern Browsers */
+       url('bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+
 .logo{
 	max-width: calc((60%) - 25px);
 	margin-left:325px;
@@ -83,19 +96,133 @@ h1{
 	font-size: 100px;
 	padding:40px;
 	border-radius:20px;
-	margin-left:400px;
+	margin-left:100px;
 	margin-top:-200px;
 	color:green;
 	font-family: 'Bayformance';
 	text-decoration: none;
 }
 
+.list{
+	width:150px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:540px;
+	margin-top:0px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+}
+
+p{
+	width:350px;
+	font-size:18px;
+}
+
+.image{
+	max-width: calc((50%) - 25px);
+	margin-left:470px;
+	margin-bottom: 100px;
+	}
+
+
 }
 
 @media only screen and (max-width: 768px){
 
+	p{
+	width:100%;
+	font-size:18px;
+	}
+
+	.image{
+	max-width: calc((100%) - 25px);
+	margin-left:10px;
+	margin-top: 5px;
+	}
+
+	.home{
+	width:0px;
+	text-align: center;
+	font-size: 110px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:50px;
+	margin-top:-206px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+	}
+
+	.list{
+	width:150px;
+	text-align: center;
+	font-size: 110px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:340px;
+	margin-top:0px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+	}
+
 }
 
 @media only screen and (max-width: 375px){
+
+	.image{
+	max-width: calc((100%) - 25px);
+	margin-left:10px;
+	margin-top: 5px;
+	}
+
+	p{
+	width:100%;
+	font-size:18px;
+	text-align: center;
+	}
+
+	.describe{
+	margin-left:10px;
+	margin-top:-205px;
+	width:240px;
+	padding:7px;
+	border-radius:7px;
+	color:white;
+	}
+
+	h1{
+		font-size: 80px;
+		margin-left:10px;
+	}
+
+	.home{
+	width:0px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:10px;
+	margin-top:-280px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+	}
+
+	.list{
+	width:150px;
+	text-align: center;
+	font-size: 100px;
+	padding:40px;
+	border-radius:20px;
+	margin-left:-30px;
+	margin-top:40px;
+	color:green;
+	font-family: 'Bayformance';
+	text-decoration: none;
+	}
 
 }

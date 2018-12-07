@@ -1,12 +1,4 @@
-@font-face {
-  font-family: 'Bayformance';
-  src: url('bayformance.eot'); /* IE9 Compat Modes */
-  src: url('bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('bayformance.woff2') format('woff2'), /* Super Modern Browsers */
-       url('bayformance.woff') format('woff'), /* Pretty Modern Browsers */
-       url('bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+
 
 
 

@@ -1,12 +1,4 @@
-@font-face {
-  font-family: 'Bayformance';
-  src: url('bayformance.eot'); /* IE9 Compat Modes */
-  src: url('bayformance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('bayformance.woff2') format('woff2'), /* Super Modern Browsers */
-       url('bayformance.woff') format('woff'), /* Pretty Modern Browsers */
-       url('bayformance.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('bayformance.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+
 
 
 
@@ -23,6 +15,15 @@
 p{
 	width:640px;
 	font-size:17px;
+	font-family: 'Rubik';
+}
+
+h1{
+		font-family: 'Rubik';
+	}
+
+li{
+	font-family: 'Rubik';
 }
 
 .paragraph{
@@ -157,6 +158,7 @@ body{
 	p{
 	width:400px;
 	font-size:17px;
+	font-family: 'Rubik';
 	}
 
 	.bullets{
@@ -393,11 +395,13 @@ body{
 p{
 	width:600px;
 	text-align: center;
+	font-family: 'Rubik';
 }
 
 .bullets{
 	text-align: center;
 	margin-left:110px;
+	font-family: 'Rubik';
 }
 
 h1{
@@ -413,6 +417,7 @@ h1{
 
 	h1{
 		width:250px;
+		margin-left:0px;
 	}
 
 	.logo{
@@ -526,13 +531,15 @@ h1{
 }
 
 .bullets{
-	font-size:18px;
-	width:200px;
+	text-align: center;
+	margin-left:0px;
+	font-family: 'Rubik';
 }
 
 p{
 	width:250px;
 	font-size:17px;
+	font-family: 'Rubik';
 }
 
 }

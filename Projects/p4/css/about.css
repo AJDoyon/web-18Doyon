@@ -48,9 +48,9 @@ h1{
 	padding:40px;
 	border-radius:20px;
 	margin-left:400px;
-	margin-top:-200px;
+	margin-top:-226px;
 	color:green;
-	font-family: 'Bayformance';
+	font-family: 'Anton';
 	text-decoration: none;
 }
 
@@ -65,9 +65,9 @@ h1{
 	padding:40px;
 	border-radius:20px;
 	margin-left:880px;
-	margin-top:0px;
+	margin-top:20px;
 	color:green;
-	font-family: 'Bayformance';
+	font-family: 'Anton';
 	text-decoration: none;
 }
 
@@ -89,9 +89,9 @@ h1{
 	padding:40px;
 	border-radius:20px;
 	margin-left:100px;
-	margin-top:-200px;
+	margin-top:-226px;
 	color:green;
-	font-family: 'Bayformance';
+	
 	text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ h1{
 	margin-left:540px;
 	margin-top:0px;
 	color:green;
-	font-family: 'Bayformance';
+	
 	text-decoration: none;
 }
 
@@ -142,9 +142,8 @@ p{
 	padding:40px;
 	border-radius:20px;
 	margin-left:50px;
-	margin-top:-206px;
+	margin-top:-244px;
 	color:green;
-	font-family: 'Bayformance';
 	text-decoration: none;
 	}
 
@@ -157,7 +156,7 @@ p{
 	margin-left:340px;
 	margin-top:0px;
 	color:green;
-	font-family: 'Bayformance';
+
 	text-decoration: none;
 	}
 
@@ -194,26 +193,26 @@ p{
 	.home{
 	width:0px;
 	text-align: center;
-	font-size: 100px;
+	font-size: 80px;
 	padding:40px;
 	border-radius:20px;
-	margin-left:10px;
+	margin-left:0px;
 	margin-top:-280px;
 	color:green;
-	font-family: 'Bayformance';
+
 	text-decoration: none;
 	}
 
 	.list{
 	width:150px;
 	text-align: center;
-	font-size: 100px;
+	font-size: 80px;
 	padding:40px;
 	border-radius:20px;
 	margin-left:-30px;
 	margin-top:40px;
 	color:green;
-	font-family: 'Bayformance';
+	
 	text-decoration: none;
 	}
 
